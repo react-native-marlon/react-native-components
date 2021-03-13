@@ -2,7 +2,7 @@
 ```
 <TouchableHighlight
   style={[ styles.btnBuscar, estiloAnimacion] } >
-                        <Text style={styles.textoBuscar } >Buscar Clima</Text>
+     <Text style={styles.textoBuscar } >Buscar Clima</Text>
 </TouchableHighlight>
 ```
    
