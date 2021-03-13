@@ -1,3 +1,17 @@
+# Form
+```
+const styles = StyleSheet.create({
+  app: {
+    flex: 1,
+    justifyContent: 'center'
+  },
+  contenido: {
+    marginHorizontal: '2.5%'
+  }
+});
+```
+
+
 # Button Black
 ```
 <TouchableHighlight
