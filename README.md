@@ -1,16 +1,9 @@
 # Button Black
 ```
-<TouchableWithoutFeedback
-                    onPressIn={ () => animacionEntrada() }
-                    onPressOut={ () => animacionSalida()  }
-                    onPress={ () => consultarClima() }
-                >
-                    <Animated.View
-                        style={[ styles.btnBuscar, estiloAnimacion] }
-                    >
+<TouchableHighlight
+  style={[ styles.btnBuscar, estiloAnimacion] } >
                         <Text style={styles.textoBuscar } >Buscar Clima</Text>
-                    </Animated.View>
-                </TouchableWithoutFeedback>
+</TouchableHighlight>
 ```
    
 ```
