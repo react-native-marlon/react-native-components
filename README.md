@@ -23,3 +23,28 @@ const styles = StyleSheet.create({
     }
 })
 ```
+
+#  TextInput
+```
+<View>
+  <TextInput 
+     value={ciudad}
+     style={styles.input}
+     onChangeText={ ciudad => guardarBusqueda({ ...busqueda, ciudad }) }
+     placeholder="Ciudad"
+     placeholderTextColor="#666"
+  />
+</View>
+```
+```
+input: {
+        padding: 10,
+        height: 50,
+        backgroundColor: '#FFF',
+        fontSize: 20,
+        marginBottom: 20,
+        textAlign: 'center'
+    },
+    
+```
+
